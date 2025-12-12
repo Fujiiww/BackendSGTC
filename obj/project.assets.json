@@ -1380,23 +1380,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andra\\.nuget\\packages\\": {},
+    "C:\\Users\\carli\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andra\\Downloads\\Valdir-Backend_SGTC\\Valdir-Backend_SGTC\\TreinamentosCorp.API.csproj",
+      "projectUniqueName": "C:\\Users\\carli\\Source\\Repos\\Backend_Refatorado\\TreinamentosCorp.API.csproj",
       "projectName": "TreinamentosCorp.API",
-      "projectPath": "C:\\Users\\andra\\Downloads\\Valdir-Backend_SGTC\\Valdir-Backend_SGTC\\TreinamentosCorp.API.csproj",
-      "packagesPath": "C:\\Users\\andra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andra\\Downloads\\Valdir-Backend_SGTC\\Valdir-Backend_SGTC\\obj\\",
+      "projectPath": "C:\\Users\\carli\\Source\\Repos\\Backend_Refatorado\\TreinamentosCorp.API.csproj",
+      "packagesPath": "C:\\Users\\carli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carli\\Source\\Repos\\Backend_Refatorado\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\andra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\carli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1423,7 +1423,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1461,7 +1461,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
