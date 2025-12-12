@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador do Sistema",
+      "email": "admin@corp.com",
+      "position": "Administrador",
+      "active": true,
+      "passwordHash": "admin123"
+    },
+    {
+      "id": 2,
+      "name": "João da Silva",
+      "email": "joao.silva@corp.com",
+      "position": "Assistente Administrativo",
+      "active": true,
+      "passwordHash": "123456"
+    },
+    {
+      "id": 3,
+      "name": "Maria Oliveira",
+      "email": "maria.oliveira@corp.com",
+      "position": "Analista de RH",
+      "active": true,
+      "passwordHash": "senha123"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "name": "Integração Corporativa",
+      "description": "Treinamento obrigatório para novos colaboradores.",
+      "active": true,
+      "minimumNote": 70,
+      "cargaHoraria": 8
+    },
+    {
+      "id": 2,
+      "name": "Segurança no Trabalho",
+      "description": "Curso obrigatório sobre segurança e prevenção de acidentes.",
+      "active": true,
+      "minimumNote": 60,
+      "cargaHoraria": 12
+    }
+  ],
+
+  "materials": [
+    {
+      "id": 1,
+      "idCourse": 1,
+      "fileName": "boas_vindas.mp4",
+      "path": "/materials/videos/boas_vindas.mp4",
+      "type": "video",
+      "dateUpload": "2025-01-10T09:30:00"
+    },
+    {
+      "id": 2,
+      "idCourse": 1,
+      "fileName": "manual_integracao.pdf",
+      "path": "/materials/pdfs/manual_integracao.pdf",
+      "type": "pdf",
+      "dateUpload": "2025-01-10T09:45:00"
+    },
+    {
+      "id": 3,
+      "idCourse": 2,
+      "fileName": "normas_seguranca.pdf",
+      "path": "/materials/pdfs/normas_seguranca.pdf",
+      "type": "pdf",
+      "dateUpload": "2025-01-12T14:15:00"
+    }
+  ],
+
+  "presence": [
+    {
+      "id": 1,
+      "idUser": 2,
+      "idCourse": 1,
+      "date": "2025-01-15T08:00:00",
+      "present": true
+    },
+    {
+      "id": 2,
+      "idUser": 3,
+      "idCourse": 1,
+      "date": "2025-01-15T08:00:00",
+      "present": false
+    },
+    {
+      "id": 3,
+      "idUser": 2,
+      "idCourse": 2,
+      "date": "2025-01-18T08:00:00",
+      "present": true
+    }
+  ],
+
+  "assessments": [
+    {
+      "id": 1,
+      "idUser": 2,
+      "idCourse": 1,
+      "note": 85,
+      "comment": "Ótimo desempenho, participou atentamente."
+    },
+    {
+      "id": 2,
+      "idUser": 3,
+      "idCourse": 1,
+      "note": 60,
+      "comment": "Atingiu a nota mínima, porém faltou em parte da aula."
+    },
+    {
+      "id": 3,
+      "idUser": 2,
+      "idCourse": 2,
+      "note": 90,
+      "comment": "Demonstra excelente compreensão das normas de segurança."
+    }
+  ],
+
+  "certificates": [
+    {
+      "id": 1,
+      "idUser": 2,
+      "idCourse": 1,
+      "date": "2025-01-20T14:00:00",
+      "validationCode": "CERT-INT-001"
+    },
+    {
+      "id": 2,
+      "idUser": 2,
+      "idCourse": 2,
+      "date": "2025-01-22T10:30:00",
+      "validationCode": "CERT-SEG-002"
+    }
+  ]
+}
